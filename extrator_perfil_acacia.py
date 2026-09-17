@@ -1,19 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Extrator de Perfis da Plataforma Acácia — versão 3
----------------------------------------------------
-Aplicativo Tkinter para:
-1. Consultar um perfil individual por slug, nome ou URL.
-2. Importar um CSV no formato nome;urlacacia (ou nome;url_acacia).
-3. Processar vários perfis em sequência, sem bloquear a interface.
-4. Exibir identidade acadêmica, métricas topológicas e percentis.
-5. Exportar resultados individuais ou uma base consolidada em CSV/JSON.
-
-Dependências externas:
-    pip install beautifulsoup4 requests
-"""
-
 from __future__ import annotations
 
 import csv
